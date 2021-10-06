@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #A7652A;
+}
+hoja de estilo del agente de usuario
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: -10px;
+}
+.menu {
+    padding-bottom: -20px;
+}
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #804C1D ;
+}
+
+li a.active {
+    color: white;
+    background-color: #804C1D ;
+}
+/*fin de diseño del menu */
+.logo{
+    margin-top: -35px;
+    width:35PX;
+     height:35PX;
+     margin-left: 1100PX;
+}
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    padding-bottom: 5px;
+    text-align: right;
+    margin-left:920px;
+    margin-top: -25px;
+}
+/* fin encabezado*/
+.sala{
+
+    width: max-content;
+    height: 400px;
+
+}
+.contenedor1{
+    width: 300px;
+    height: 300px;
+    background-color: #ebad76;
+    margin-top: -250px;
+    margin-left: 50px;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 12px;
+    box-shadow:0 0 10px 1px rgb(192, 17, 17);
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.contenedor2{
+    width: 300px;
+    height: 300px;
+    background-color: #ebad76;
+    margin-top: -370px;
+    margin-left: 850px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 12px;
+    box-shadow:0 0 10px 1px rgb(192, 17, 17);
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.equipo{
+    margin-right: 20px;
+    margin-left: 25px;
+}
+.ne{
+    width: 1050px;
+    height: -200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: #ebad76;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 12px;
+    box-shadow:0 0 10px 1px rgb(192, 17, 17);
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+/*Pie de pagina*/
+footer {
+    background-color: #804C1D;
+    color: #e7e7e7;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.marginFooter {
+    margin: 40px;
+}
