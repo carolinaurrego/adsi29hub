@@ -1,0 +1,4 @@
+Agosto 6 iniciamos el aprendizaje del sistema de control de versiones GIT
+
+estamos proximos a crear la primera version del repositorio 
+modificación de este archivo 
