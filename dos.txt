@@ -1,1 +1,1 @@
-En este segundo archivo se llevara el listado de aprendices que participan en la sesion y se ten dra en cuenta aquellos que no participan tambien
+En este segundo archivo se llevara el listado de aprendices que participan en la sesion y se ten dra en cuenta aquellos que no participan tambien.
