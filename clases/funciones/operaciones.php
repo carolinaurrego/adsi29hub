@@ -9,9 +9,9 @@
     <body>
         <br><br>
         <center>
-            <h3>RESULTADO</h3>
+            <h3>ESTE ES EL RESULTADO DE SU CONSULTA</h3>
             <?php
-                //generar numeros aleatorios
+               
                 $num=$_POST['num'];
                 $nums1=array();
                 for ($i=0; $i<$num ; $i++) { 
