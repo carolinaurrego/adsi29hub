@@ -35,7 +35,7 @@ function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$editori
         return $this->autor;
     }
 }
-$ob2=new Libro('papel','606094','Gabriel Garcia Marquez','100 años de soledad',1990,'Excelente Calidad','Norma','1500','100');
+$ob2=new Libro('reciclado','53048','keri smith','destroza este diario',2012,'en buen estado','Planeta','100','10');
 echo $ob2->datos().'<br>';
 echo '<b>'.'EDITORIAL:'.'</b>'.$ob2->getEditorial().'<br>';
 echo '<b>'.'NUMERO DE PAGINAS:'.'</b>'.$ob2->getnumeroPaginas().'<br>';

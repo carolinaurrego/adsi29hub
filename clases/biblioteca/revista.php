@@ -38,14 +38,13 @@ function __construct($tipoMaterial,$codigo,$autor,$titulo,$año,$status,$tema,$f
         return $this->numeroEdicion;
     }
 }
-$ob=new Revista('papel estucado','1234-5678','andrea Lopez','VEA',2000,'Excelente Calidad','Met Gala','10-09-2021','EEUU','19');
+$ob=new Revista('papel brillante','102387','Mark reinecke','mantenga la calma y siga adelante',2018,'Excelente estado','lecciones de calma','18 octubre','colombia','5');
 echo $ob->datos().'<br>';
 echo '<b>'.'Tema: '.'</b>'.$ob->getTema().'<br>';
 echo '<b>'.'Fecha de publicación: '.'</b>'.$ob->getFechaPublicacion().'<br>';  
 echo '<b>'.'Lugar de publicacion: '.'</b>'.$ob->getLugarPublicacion().'<br>';
 echo '<b>'.'Numero de edición: '.'</b>'.$ob->getNumeroEdicion().'<br>';
 ?>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Securit
+
+
+
