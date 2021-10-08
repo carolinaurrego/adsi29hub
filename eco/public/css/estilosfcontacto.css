@@ -1,0 +1,253 @@
+/*diseño para menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #A7652A;
+  }
+  hoja de estilo del agente de usuario
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: -10px;
+  }
+  .menu {
+    padding-bottom: -20px;
+  }
+  li {
+    float:left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #804C1D ;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #804C1D ;
+  }
+  /*fin de diseño del menu */
+  .logo{
+    margin-top: -35px;
+    width:35PX;
+     height:35PX;
+     margin-left: 1100PX;
+  }
+  .titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    padding-bottom: 5px;
+    text-align: right;
+    margin-left:920px;
+    margin-top: -25px;
+  }
+  /* fin encabezado*/
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #A7652A;
+  }
+  hoja de estilo del agente de usuario
+  ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  .menu {
+      padding-bottom: 20px;
+      color: rgb(5, 14, 14);
+  }
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #804C1D ;
+  }
+
+  li a.active {
+      color: white;
+      background-color: #804C1D ;
+  }
+
+
+
+
+
+  body{
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #804C1D ;
+  }
+
+
+  .contact_form{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #804C1D;
+    padding-left: 30px;
+  }
+
+
+  input{
+    background-color: none;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f8f2f7;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  textarea{
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f0eaee;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+
+
+  label{
+    display: block;
+    float: center;
+  }
+
+
+  .button1{
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #F0B27A;
+    border-color: #ece8e4;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+  }
+
+
+  button p{
+    color: #fff;
+  }
+
+
+  span{
+    color: #ebe0e8;
+  }
+
+
+  .aviso{
+    font-size: 13px;
+    color: #0e0e0e;
+  }
+
+
+  h1{
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #f5e7f1;
+  }
+
+
+  h2{
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+  }
+
+
+  p{
+    font-size: 14px;
+    color: #0e0e0e;
+  }
+
+
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+
+
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+
+
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+
+  /* creado por javiniguez.com, Julio 2019 */
+
+  /*Pie de pagina*/
+  /*Pie de pagina*/
+  footer {
+    background-color: #804C1D;
+    color: #e7e7e7;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .marginFooter {
+    margin: 40px;
+  }
+
