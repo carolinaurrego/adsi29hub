@@ -77,19 +77,19 @@ div.div img {
     padding: 10px;
     border-radius: 30px;
 }
-div.div_section {
+div.divseccion {
     display:flex;
     align-items:center;
     }
 
-div.section {
+div.seccion {
     background-color: #424196fa;
     color: whitesmoke;
     padding: 20px;
     width: auto;
     margin: auto;
 }
-div.div_section {
+div.divseccion {
     display:flex;
     align-items:center;
     }
@@ -122,6 +122,6 @@ footer {
     font-style: oblique;
 }
 
-.marginFooter {
+.contacto {
     margin: 90px;
 }
