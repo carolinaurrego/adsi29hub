@@ -17,11 +17,17 @@ var  frac = {
        denominadorR = esto . d1  *  esto . d2 ;
        return  'El resultado de la resta es' +  numeradorRF  +  '/'  +  denominadorR ;
    } ,
-   multi : function ( ) {
-       numeradorM1 = esto . n1  *  esto . n2 ;
-       numeradorM2 = esto . d1  *  esto . d2 ;
-       return  'El resultado de la multiplicacion es' +  numeradorM1  +  '/'  + numeradorM2 ;
+   _multi: function () {
+      numeradorM1 = esto.n1 * esto.n2;
+      numeradorM2 = esto.d1 * esto.d2;
+      return 'El resultado de la multiplicacion es' + numeradorM1 + '/' + numeradorM2;
    } ,
+   get multi() {
+      return this._multi;
+   },
+   set multi(value) {
+      this._multi = value;
+   },
    divi : function ( ) {
        numeradorD1 = esto . n1  *  esto . d2 ;
        numeradorD2 = esto . n2  *  esto . d1 ;
