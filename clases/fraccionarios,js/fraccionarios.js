@@ -1,57 +1,38 @@
-public class Fraccion {
-    private int num;
-    private int den;
- public Fraccion() {
-    num=0;
-    den=1;
- }
- public Fraccion(int x, int y) {
-    num=x;
-    den=y;
- }
- public static Fraccion sumar(Fraccion a, Fraccion b){
-    Fraccion c=new Fraccion();
-    c.num=a.num*b.den+b.num*a.den;
-    c.den=a.den*b.den;
-    return c;
- }
- public static Fraccion restar(Fraccion a, Fraccion b){
-    Fraccion c=new Fraccion();
-    c.num=a.num*b.den-b.num*a.den;
-    c.den=a.den*b.den;
-    return c;
- }
- public static Fraccion multiplicar(Fraccion a, Fraccion b){
-    return new Fraccion(a.num*b.num, a.den*b.den);
- }
- public static Fraccion inversa(Fraccion a){
-    return new Fraccion(a.den, a.num);
- }
- public static Fraccion dividir(Fraccion a, Fraccion b){
-    return multiplicar(a, inversa(b));
- }
- private int mcd(){
-    int u=Math.abs(num);
-    int v=Math.abs(den);
-    if(v==0){
-         return u;
-    }
-    int r;
-    while(v!=0){
-         r=u%v;
-         u=v;
-         v=r;
-    }
-    return u;
- }
- public Fraccion simplificar(){
-    int dividir=mcd();
-    num/=dividir;
-    den/=dividir;
-    return this;
- }
- public String toString(){
-    String texto=num+" / "+den;
-    return texto;
- }
+var  frac = {
+   n1 : 1 ,
+   n2 : 4 ,
+   d1 : 7 ,
+   d2 : 3 ,
+   suma : function ( ) {
+       numeradorS1 = esto . n1  *  esto . d2 ;
+       numeradorS2 = esto . n2  *  esto . d1 ;
+       numeradorSF = numeradorS1  +  numeradorS2 ;
+       denominadorS = esto . d1  *  esto . d2 ;
+       return  'El resultado de la suma es' +  numeradorSF  +  '/'  +  denominadorS ;
+   } ,
+   resta : function ( ) {
+       numeradorR1 = esto . n1  *  esto . d2 ;
+       numeradorR2 = esto . n2  *  esto . d1 ;
+       numeradorRF = numeradorS1  -  numeradorS2 ;
+       denominadorR = esto . d1  *  esto . d2 ;
+       return  'El resultado de la resta es' +  numeradorRF  +  '/'  +  denominadorR ;
+   } ,
+   multi : function ( ) {
+       numeradorM1 = esto . n1  *  esto . n2 ;
+       numeradorM2 = esto . d1  *  esto . d2 ;
+       return  'El resultado de la multiplicacion es' +  numeradorM1  +  '/'  + numeradorM2 ;
+   } ,
+   divi : function ( ) {
+       numeradorD1 = esto . n1  *  esto . d2 ;
+       numeradorD2 = esto . n2  *  esto . d1 ;
+       return  'El resultado de la division es' +  numeradorD1  +  '/'  + numeradorD2 ;
+   }
 }
+
+consola . log ( frac . suma ( ) ) ;
+
+consola . log ( frac . resta ( ) ) ;
+
+consola . log ( frac . multi ( ) ) ;
+
+consola . log ( frac . divi ( ) ) ;
