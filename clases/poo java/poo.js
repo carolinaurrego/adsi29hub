@@ -47,27 +47,7 @@ console.log(alumno['nombrecompleto']);
 console.log(alumno['nombre']);
 console.log(alumno['apellido']);
 
-//3 
-var ob= function aprendiz (nombre,apellido) {
-    //var nombre='carolina';
-    //var apellido='urrego';
-    this.nombre=nombre;//con parametros
-    this.apellido=apellido;
-    //this.nombre='carolina';
-    //this.apellido='urrego';
-    this.nombrecompleto=function () {
-        return this.nombre + ' - ' + this.apellido;
-    }
-}      
-var ob=new aprendiz('eduardo','lara');
-var ob2=new aprendiz('Daniel ','torres');
 
-console.log(typeof(ob));
-console.log(ob.nombre);
-console.log(ob2.nombre);
-console.log(ob.nombrecompleto());
-
-//4 
 class estudiante{
     constructor (nombre,apellido){
         this.nombre=nombre;
