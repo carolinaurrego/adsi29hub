@@ -10,10 +10,10 @@ h2 {
 
 td input#cambios {
     text-decoration: none;
-    background-color: rgb(10, 12, 161);
+    background-color: rgb(238, 238, 248);
     color: rgb(194, 36, 36);
     padding: 5px;
-    border: rgb(60, 12, 173);
+    border: rgb(239, 236, 245);
     border-radius: 10px;
 }
 strong#form h2 {
