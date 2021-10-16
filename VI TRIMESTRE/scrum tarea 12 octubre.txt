@@ -63,7 +63,7 @@ clientes-stake holder
 
 pila de producto (bitacora) requisitos del proyecto 
 
-dueño de producto comuinicarse gestionar todas las expectattivas y necesidades de los stake holder 
+dueño de producto comuinicarse gestionar todas las expectativas y necesidades de los stake holder 
 
 despues de cada sprint un trozo de mi producto un inceremento ootencialmente puesto en producción algo real 
 
