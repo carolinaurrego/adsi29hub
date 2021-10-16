@@ -12,7 +12,7 @@ div {
     border-radius: 30px;
 }
 div nav {
-    background-color: #7b4b9ba9;
+    background-color: #8a23caa9;
     font-size: 30px;
     padding: 10px;
     text-align: right;
@@ -51,7 +51,7 @@ header{
         header h1 {
             text-align:center;
         }
-div article{
+div articulo{
     background-color: #eae4eeb7;
     color: rgb(15, 14, 14);
 }
