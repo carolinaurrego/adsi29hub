@@ -1,0 +1,129 @@
+ROLES SCRUM  video 1
+
+cada miembro tiene una mision 
+es importante mantener procesos 
+rol miembro objetivo 
+objetivo final un proyecto final y avanzando 
+
+DUEÑO DEL PRODUCTO velar por los intereses del procuto final (cliente)
+SCRUM MASTER eje fundamental (coordinar facilitar requerimientos que tengamos dentro del ciclo de trabajo o sprint)
+EQUIPO implementar las ideas o objetivos 
+los roles no estan completamente definidos 
+se pueden intercambiar roles 
+no es tanto de cumplir roles si no objetivos 
+se puden teenr proveedores o colaboradores 
+*********************************************************************
+EL DUEÑO DEL PRODUCTO Video 2
+Aportar ideas al producto final, es quien se encuentra mas c erca a lo que va a ser el producto final 
+idea --- emprendedor
+ejemplo 
+tienda de sombreros comienza a desarrollar lo que va a hacer su producto  crea backlog o bitacora se encarga de generar requisitos para cada idea una hoja diferente para llenar la bitacora general del proyecto 
+
+el dueño de producto no es el jefe puede ser cliente o puede ser del equipo de trabajo el siempre sera la voz del cliente y del producto 
+por eso siempre se debe enfocar en la necesidad del cliente y del producto 
+********************************************************************
+EL EQUIPO DE DESARROLLO VIDEO 3
+Grupo de personas relacionadas con la producion de nuestro proyecto en general son los encargados de implementar nuestro producto 
+puede ser cualquier tipo de profesional entre mas diversos mejor cada uno se debe desempeñar en un area distinta deben ser pequeños y autosuficientes no debe ser menos de 3 ni mas de 15 porque se vuelve mas dificil 
+TODOS SON PARTE DEL PROCESO CREATIVO todos deben concentrarse en entregar un producto 
+equipo va a recibir del scrummaster las instrucciones que se deben cumplir dentro del ciclo y estaran definidas dentro de la bitacora cada uno de los miembreo va a comenzar a elegir tareas a asignarlas y luego se trabaja dentro del ciclo la bitacora sera la guia  se debe enfocar en obtener resultados 
+******************************************************************
+SCRUMMASTER VIDEO 4
+
+Se encarga de que todas las cosas sucedan 
+Mantener el flujo de trabajo que se mantengan comunicados apoyo al equipo para resolver problemas resuelve dudas o incumplimiento 
+
+mantiene procesos se encarga de la bitacora de que este actualizada que todos los equipos cumplanlos procesos 
+
+gestiona reuniones diarias 
+reunion todos los dias para garantizar comunicacion en todos los equipos 
+
+mantiene comunicacion con el dueño de producto para recopilar lo que va a hacer la bitacora 
+
+facilita todas las tareas al equipo para realziar dentro del ciclo 
+SCRUM MASTER no es jefe solo tiene un rol especifico que es facilitar y asegurar los procesos para la entrega del producto 
+*******************************************************************
+Los pollos y los cerdos  VIDEO 5
+El cerdo esta comprometido 
+el pollo solo pone los huevos 
+scrum es una metodologia de mucho compromiso y se esta comprometido cuando eres responsable por el resultado del proyecto 
+
+dueño de produuto equipo scrum master estan comprometidos 
+usuarios clientes y equipo administrativo estan envueltos 
+
+********************************************************************
+HACER UN SCRUM VIDEO 6
+
+iteracion:
+SPRINT entre 1 a 4 semanas:ritmo continuo 
+el sprint se debe tratar de que dure  el mismo tiempo
+
+alguien tiene una idea o tiene necesidades 
+clientes-stake holder 
+
+pila de producto (bitacora) requisitos del proyecto 
+
+dueño de producto comuinicarse gestionar todas las expectattivas y necesidades de los stake holder 
+
+despues de cada sprint un trozo de mi producto un inceremento ootencialmente puesto en producción algo real 
+
+
+equipo de construcción 
+generando incremento sobre cada ciclo 
+
+pila de producto priorizada 
+
+
+
+pila de sprint subconjunto de funcionalidades es limitado es pequeño conjuntos requisitos, tareas tecnicas que el equipo se ha encargado de crear
+
+dividirlos 
+desgranarlos 
+refinarlos 
+
+se hace en una reunión reunion de planificación el duñeo de prodcuto junto con el equipo se deciden tareas se asignan y se estiman 
+
+
+comunicación y sincronización de equipos de trabajo reunion max 15 minutos diarias para fomento de comunicaión 
+
+final del ciclo 
+una vez se entrega procuto se revisa el duño del equipo y el equipo reunion de DEMO parte de check 
+el equipo debe pararse a reflexionar sobre las problematicas y formas de mejorar entonces se hace reunion de retrospectiva donde se evaluara
+las problematicas y la forma de trabajar del equipo todos pueden asistir segun lo decida el equipo 
+
+
+reunion de refirmamiento  dueño de producto mientras el equipo trabaja en el ciclo actual el debe estar trabajando n los proximos y esto no esta tan claro por lo cual se realiza esta reunion equipo y dueño del produto para afinar requisitos puede ser una reunion de 2 horas o varias reuniones pequeñas 
+
+scram master encargado del proceso y de que se cumpla y de remover impedimentos relaciones 
+para  asegurar que al ciclo solo entra lo necesario se hace definicion de listo que es un conjunto de tareas o de requisitos que tiene que cumplir un item de la bitacora
+
+cuando algo esta terminado tambien se llama una lista de cualidades y esta se llama definicion de terminados 
+
+codigos pruebas etc dentro de la lista para poder decir que esta terminado 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
