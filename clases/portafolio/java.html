@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <br>
+  
+ 
+    <title> javascript</title>
+    <link rel="stylesheet" href="css/estilojs.css">
+</head>
+<body background="imagenes/fondojava.jpg">
+    
+    <div class="body">
+        <div class="div_nav">
+            <strong>
+            <nav>
+                <a href="about_me.html">Inicio </a>
+            </nav>
+        </strong>
+        </div>
+        <div class="header">
+            <header>
+                <img src="imagenes/a.png" id="foto">
+               
+                
+            </header>
+        </div>
+        <div class="article">
+            <article>
+                <strong>
+                    <h2>
+                        DIANA CAROLINA URREGO <br>
+                             desarrollo web
+                    </h2>
+                </strong>
+            </article>
+        </div>
+    </div>
+    <div class="strong">
+        <strong class="strong">
+            <h2>EJERCICIOS</h2>
+        </strong>
+    
+   
+    </div>
+    <div>
+        <pre> 
+    //Generar el array EJERCICIO 1
+var vec=(array,tam)=>{
+    for (let i = 0; i < tam; i++) {
+        array.push(Math.round(Math.random()*100));
+        
+    }
+    return array;
+}
+v=[];
+x=5;
+document.write('Flecha: '+vec(v,x));
+
+//Suma del array
+var sum=v=>{
+    let suma=0;
+    for (let i = 0; i< v.length; i++) {
+        suma+=v[i];
+    }  
+    return suma; 
+}
+document.write('La suma de los elementos del array es: '+ sum(v));
+
+//Promedio del array
+var prom=(v,x)=>{
+    let promedio=0;
+    for (let i = 0; i< v.length; i++) {
+        promedio+=v[i]/x;
+    }  
+    return promedio; 
+}
+document.write('El promedio de los elementos del array es: '+ prom(v,x));
+
+//Mayor del array
+var mayor=v=>{
+    let may=0;
+    for (let i = 0; i< v.length; i++) {
+        if (v[i]>may) {		
+            posicion=i;
+            may=v[i];
+        }
+    }  
+    return may; 
+}
+document.write('El numero mayor de los elementos del array es: '+ mayor(v)+' y su posicion es: '+posicion);
+
+//Menor del array
+var menor =v=>Math.min(...v);
+document.write('el numero menor es:'+menor(v));
+            
+</pre>
+</div>
+
+    
+        <script src="js/ejerciciofun.js"></script>
+    </div>
+    <div>
+       
+  
+  
+    <br>
+    <br>
+    <br>
+    <br>
+        <pre>
+
+            //EJERCICIO2
+        var frac={
+   n1:8,
+   n2:6,
+   d1:10,
+   d2:7,
+   suma:function(){
+       numeradorS1=this.n1 * this.d2;
+       numeradorS2=this.n2 * this.d1;
+       numeradorSF=numeradorS1 + numeradorS2;
+       denominadorS=this.d1 * this.d2;
+       return 'El resultado de la suma es '+ numeradorSF + ' / ' + denominadorS;
+   },
+   resta:function(){
+       numeradorR1=this.n1 * this.d2;
+       numeradorR2=this.n2 * this.d1;
+       numeradorRF=numeradorS1 - numeradorS2;
+       denominadorR=this.d1 * this.d2;
+       return 'El resultado de la resta es '+ numeradorRF + ' / ' + denominadorR;
+   },
+   multi:function(){
+       numeradorM1=this.n1 * this.n2;
+       numeradorM2=this.d1 * this.d2;
+       return 'El resultado de la multiplicacion es '+ numeradorM1 + ' / ' +numeradorM2;
+   },
+   divi:function(){
+       numeradorD1=this.n1 * this.d2;
+       numeradorD2=this.n2 * this.d1;
+       return 'El resultado de la division es '+ numeradorD1 + ' / ' +numeradorD2;
+   }
+}
+
+document.write(frac.suma());
+
+document.write(frac.resta());
+
+document.write(frac.multi());
+
+document.write(frac.divi());
+</pre>
+</div>
+<div>
+   
+        <script src="js/ejerciciofrac.js"></script>
+    </div>
+    <div>
+       
+        <br>
+        <br>
+        <br>
+        <pre>
+//EJERCICIO 3
+class Persona{
+    constructor(nombre,apellido){
+        this._nombre=nombre;
+        this._apellido=apellido;
+    }
+    get nombre (){
+        return this._nombre;
+    }
+    set nombre(nombre){
+        this._nombre=nombre;
+    }
+    get apellido (){
+        return this._apellido;
+    }
+    set apellido(apellido){
+        this._apellido=apellido;
+    }
+    NombreCompleto(){
+        return this._nombre + ' ' +this.apellido;
+    }
+}
+
+class Aprendiz extends Persona {
+    constructor(nombre, apellido, ficha, programa) {
+        super(nombre, apellido);
+        this._ficha = ficha;
+        this._programa = programa;
+    }
+
+    get programa() {
+        return this._programa;
+    }
+
+    set programa(programa) {
+        this._programa = programa;
+    }
+
+    get ficha() {
+        return this._ficha;
+    }
+
+    set ficha(ficha) {
+        this._ficha = ficha;
+    }
+}
+ ob =new Persona('Ihan','Valencia');
+console.log(ob.nombre);
+ap = new Aprendiz('Matyas', 'Urrego', '152345', 'contabilidad');
+ap.nombre = 'Carolina';
+
+
+console.log(ap);
+</pre>
+</div>
+<div>
+    
+        <script src="js/ejerciciopoo.js"></script>
+    </div>
+</body>
+<footer class="footer">
+    <strong><h2>contacto</h2></strong>
+    <h3>diana carolina urrego franco</h3>
+    <h3>correo:dcurrego35@misena.edu.co</h3>
+    <h3>repositorios:https://github.com/carolinaurrego/adsi29hub</h3>
+</footer>
+</html>

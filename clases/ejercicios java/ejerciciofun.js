@@ -1,11 +1,3 @@
-var colores=['blanco', 'negro','azul'];
-
-colores.forEach(function(color) {
-    console.log(color)
-});
-
-
-
 //Generar el array
 var vec=(array,tam)=>{
     for (let i = 0; i < tam; i++) {
@@ -16,7 +8,7 @@ var vec=(array,tam)=>{
 }
 v=[];
 x=5;
-console.log('Flecha: '+vec(v,x));
+document.write('Flecha: '+vec(v,x));
 
 //Suma del array
 var sum=v=>{
@@ -26,7 +18,7 @@ var sum=v=>{
     }  
     return suma; 
 }
-console.log('La suma de los elementos del array es: '+ sum(v));
+document.write('La suma de los elementos del array es: '+ sum(v));
 
 //Promedio del array
 var prom=(v,x)=>{
@@ -36,7 +28,7 @@ var prom=(v,x)=>{
     }  
     return promedio; 
 }
-console.log('El promedio de los elementos del array es: '+ prom(v,x));
+document.write('El promedio de los elementos del array es: '+ prom(v,x));
 
 //Mayor del array
 var mayor=v=>{
@@ -49,8 +41,8 @@ var mayor=v=>{
     }  
     return may; 
 }
-console.log('El numero mayor de los elementos del array es: '+ mayor(v)+' y su posicion es: '+posicion);
+document.write('El numero mayor de los elementos del array es: '+ mayor(v)+' y su posicion es: '+posicion);
 
 //Menor del array
 var menor =v=>Math.min(...v);
-console.log('el numero menor es:'+menor(v));
+document.write('el numero menor es:'+menor(v));
