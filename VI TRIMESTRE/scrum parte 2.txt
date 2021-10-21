@@ -1,0 +1,63 @@
+como trabaja un equipo SCRUM 
+DEFINICION DE LA BITACORA 
+capacidades que se espera va a atener nuestro producto, junto con el scrum master el equipo va a encargarse de seleccionar los diferentes elementos en los que va a trabajar una vez definidos se van a aasignar entre si se pueden escoger tareas una vez que acaba el spring se presenta trabajo con el scrum master y el dueño de producto 
+
+el dueño de producto revisara la bitacora y deser posible agregara y luego se iniciara un nuevo spring 
+
+ciclos cortos de 2 a 3 semanas
+nuevas especificaciones 
+se trabaja en ellas 
+en conjunto con el scrum master 
+y presentan y asi sucesivamente cada ciclo en mejora continua entregando un procuto fumncional 
+
+**********************************************************************
+BITACORA DE PRODUCTO 
+El plano general de lo que va a hacer el procuto final esta la desarrolla el dueño de procuto vislumbrando lo que va a ser el producto, necesidades del cliente y del producto se asignan requerimientos en tarjetas cada una con una caracteristica que debne tener el proocuto final desde el punto de vista del usuario final
+ejemplo del boton rojop 
+
+como usuario yo necesito un boton de color rojo, siempre debe estar redactado desde el lado de quien los usa asi no crearemos produtos para quien los crea si no para quien los usa
+
+el usuario debe tener acceso a un catalogo de restauraciones de muebles 
+solo el dueño de procuto puede agregar o quitar elementos por el rol 
+
+se verificara la bitacora 
+
+se deben escoger algunas para cada ciclo no todas 
+
+/*******************************************************************
+sprint carrera corta donde  todos los integrantes del equipo daran todo de si para entregar un producto funcional 
+}objetivo comun 
+inicio sprint definicion de items y elementos a desarrollar 
+final sprint entrega de prodcuto y evaluacion de requerimientos 
+de 2 a 3 semanas 
+pausas fin de semana o una semana dependiendo del proyecto 
+ciclo constante de pequeñas carreras 
+items tareas 
+*******************************************************************
+scrum diario 
+
+ritual mas importante reunion mas importante del dia 
+solo tarde 15 minutos 
+todos de pie 
+producir no de hablar loq ue se va a producir breve consisa 
+tres preguntas 
+que hiciste ayer? avance del proyecto 
+que vas a ahacer hoy? objetivo especifico del dia 
+hay algun obstaculo para realziarlo? verificar para solicitar ayuda 
+esta reunion permite ver donde estamos haia donde vamos y estara actualziado el proyecto 
+el scrum master levantara una lista sobre las dificultades que se tengan y su trabajo sera resolver dichas dificultades 
+finalizada la reunion se pueden tener reuniones paralelas 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
